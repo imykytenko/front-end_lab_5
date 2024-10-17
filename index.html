@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab5 Mykytenko</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<form id="myForm" method="post">
+    <h1>Форма для заповнення</h1>
+    <label for="name">ПІБ</label><br>
+    <input type="text" id="name" name="name" placeholder="Прізвище І.Б."><br>
+    <label for="tel">Номер телефону</label><br>
+    <input type="tel" id="tel" name="tel" placeholder="(123)-456-78-90"><br>
+    <label for="idCard">ID Card</label><br>
+    <input type="text" id="idCard" name="idCard" placeholder="АБ №123456"><br>
+    <label for="faculty">Факультет</label><br>
+    <input type="text" id="faculty" name="faculty" placeholder="Назва факультету українською"><br>
+    <label for="birthday">Дата народження</label><br>
+    <input type="date" id="birthday" name="birthday" max=""><br><br>
+    <button type="button" onclick="registerUser()">Підтвердити</button>
+</form>
+<div id="colorPicker">
+    <label for="color">Оберіть колір:</label>
+    <input type="color" id="color" value="#ff0000">
+</div>
+<table id="myTable"></table>
+
+<script src="script.js"></script>
+</body>
+</html>
